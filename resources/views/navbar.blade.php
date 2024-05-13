@@ -10,26 +10,30 @@
     gap: 20px;
     align-items: center;
     height: 100%;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-container  a:active  {
+    opacity: 1 !important;
 }
 
 .nav-container > ul > li > a {
     color: #fff;
     opacity: 0.5;
     text-decoration: none;
-
 }
 
-.nav-container>ul>li:hover  {
-    list-style: none;
-    text-decoration: underline;
-    opacity: 1;
-}
+
 
 </style>
 <div class="nav-container">
     <ul>
         <li>
-            <a href="/">Acceuil</a>
+            <a  href="/">Acceuil</a>
         </li>
         <li>
             <a href="/posts">Posts</a>
