@@ -15,3 +15,7 @@ Route::get('/posts',[PostController::class, 'index']);
 Route::get('/posts/store',[PostController::class, 'store']);
 Route::post('/posts/store',[PostController::class, 'store'])->name('storePost');
 
+Route::get('/login',function ()  {
+    return view('login');
+});
+
